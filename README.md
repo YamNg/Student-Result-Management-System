@@ -23,3 +23,7 @@ Services Path
    - http://localhost:5432
 4. PostgreSQL database viewer
    - http://localhost:8080
+
+Postman Collection
+
+1. Located in assessment-backend/misc/Shyftlab Assessment.postman_collection.json
