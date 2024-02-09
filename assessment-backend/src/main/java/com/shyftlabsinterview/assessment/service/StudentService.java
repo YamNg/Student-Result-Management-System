@@ -21,8 +21,6 @@ public class StudentService {
     @Transactional
     public StudentEntity addStudent(AddStudentRequestModel model) throws Exception{
         StudentEntity entity = new StudentEntity(model);
-        System.out.println("testing");
-        System.out.println(entity);
         return repository.save(entity);
     }
 
